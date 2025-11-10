@@ -1,0 +1,32 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+
+# === Виртуальные окружения ===
+venv/
+.venv/
+env/
+home_credit/     # твой venv с таким именем
+
+# === Данные и артефакты (держим структуру через .gitkeep) ===
+data/
+artifacts/
+reports/
+!data/.gitkeep
+!artifacts/.gitkeep
+!reports/.gitkeep
+
+# === Форматы, которые всё равно иногда оказываются в корне ===
+*.parquet
+*.csv
+*.zip
+*.png
+
+# === Секреты ===
+kaggle.json
+.env
+*.key
